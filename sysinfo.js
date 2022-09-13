@@ -14,7 +14,7 @@ async function getStorageInfo(){
 	let total = 0;
 	// First we find the block device which the data partition is part of
 	for (const partition of fsInfo) {
-		if (partition.mount === '/data') {
+		if (partition.mount === '/etc/hosts') {
 			mainFs = partition.fs;
 			total = partition.size;
 			break;
