@@ -1,0 +1,29 @@
+{
+  "name": "balena-metrics",
+  "version": "1.0.0",
+  "description": "The balena Supervisor reports metrics about your device to the cloud. Now you can have those metrics via this block",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "balena-metrics"
+  },
+  "keywords": [
+    "balena",
+    "metrics",
+    "supervisor-metrics",
+    "balena-metrics"
+  ],
+  "author": "Linzo99",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "systeminformation": "^5.12.6"
+  },
+  "scripts":{
+      "start": "node server.js"
+  }
+}

@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+    metrics:
+        build: https://github.com/Linzo99/balena-metrics_block.git
+        privileged: true
+        environment:
+            - PORT=28282
+        ports:
+            - 28282
